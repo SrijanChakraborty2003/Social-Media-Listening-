@@ -12,7 +12,7 @@ def clean_text(text):
     return text
 
 # Load saved model and vectorizer
-vectorizer = joblib.load('tfidf_vectorizer.pkl')
+vectorizer = joblib.load('tfidf_vectorizer (3).pkl')
 svm_model = joblib.load('emotion_classification_model.pkl')
 
 def predict_emotion(text):
